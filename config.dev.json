@@ -1,4 +1,4 @@
-{
+I'm{
 	"facebookAccount": {
 		"email": "",
 		"password": "",
@@ -18,10 +18,7 @@
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [
-		"Met to' Uid ici",
-		""
-	],
+	"adminBot": ["61583425490649"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
