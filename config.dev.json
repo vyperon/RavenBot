@@ -1,8 +1,8 @@
 {
 	"facebookAccount": {
-		"email": "",
-		"password": "",
-		"2FASecret": "",
+		"email": "xeltorion@gmail.com",
+		"password": "|()|worldcup2026****",
+		"2FASecret": "556967",
 		"i_user": "",
 		"proxy": null,
 		"userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
@@ -29,6 +29,21 @@
 		"whiteListThreadIds": [],
 		"notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
 		"how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
+	},
+	"logsGroup": {
+		"enable": true,
+		"threadID": "1078822281036046",
+		"logTypes": {
+			"botStart": true,
+			"botRestart": true,
+			"commandUsed": true,
+			"errors": true,
+			"warnings": true,
+			"userBanned": true,
+			"threadBanned": true,
+			"adminActions": true
+		},
+		"notes": "Put your group thread ID here to receive logs. Get thread ID by sending a message in your group and check the console or use the 'tid' command. Set enable to true and fill threadID to activate logs"
 	},
 	"database": {
 		"type": "sqlite",
